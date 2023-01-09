@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>FORMS AND DATA ENTRY</h2>
+    <form action="backend.php">
+        <div>
+            <a href="https://www.youtube.com/watch?v=KqJikDzb3l4&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=8" target="_blank"> HTML CSS COURSE</a>  <br><br>
+          
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name">
+            <!-- In the lable tag We give the id of the elementlike lable for"the id of the content"  --><br>
+            <label for="myAge">AGE</label>
+            18+<input type="checkbox" checked id="myAge">
+            <!-- here the checked command will check the box by default -->
+        </div><br>
+        <div>
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqPBF166wuR_qR6uXRcCxyHSG93_QA9rGYgpPpmnGOuA&s" width="300" height="250" alt="Error">
+            <img src="" alt="error">
+        </div>
+        <div>
+            <!-- here name refer to the backend for storing data in it -->
+            <label for="myEmail">Email</label>
+            <input type="email" name="Email" id="myEmail">
+        </div>
+        <br>
+        <div>
+            <label for="myDate">DATE</label>
+            <input type="date" name="date" id="myDate">
+        </div><br>
+        <div>
+            <label for="myContact">CONTACT</label>
+            <input type="number" name="contact" id="myContact"> <br><br>  
+            
+            <label for="myGender">GENDER</label><br>
+            MALE<input type="radio" name="gender" id="myGender"> FEMALE<input type="radio" name="gender" id="myGender" >
+            
+            <!-- Here when we give same NAME MYGENDER to the inputs then only one of them will be selected  -->
+        </div><br>
+        <div>
+            <!-- here text is inputed bt the user -->
+            <label for="myText">ABOUT MY SELF</label>
+            <textarea name="TEXTBRo" id="myText" rows="10" cols="30"></textarea>
+         
+        </div>
+        <div><br>
+            <!-- in the select there will be optio diffrent diffeernt in valur the vale which will be stored will be displayed and the value the user will see will be defined after it  -->
+            <label for="car">CAR</label>
+            <select name="MYCAR" id="car">
+                <!-- here selected tag is ued for default value  -->
+                <option value="NONE" selected>NONE</option>
+                <option value="POS">PORSCh</option>
+                <option value="BUG">BUGATI</option>
+                <option value="rol">ROLEX</option>
+            </select>
+        </div>
+
+        <br>
+        <!-- Here noww we will submit the form we have created  -->
+        <div>
+            <input type="submit" value="SUBMIT HERE"> 
+            <input type="reset" value="Reset Now ">
+            <!-- here reset eil reset all he vales given befores in the form  -->
+        </div>
+
+        
+
+    </form>
+</body>
+</html>
